@@ -13,6 +13,7 @@ Using machine learning and neural networks, the task at hand is to use the featu
 # Results
 The charity_data.csv was imported, some columns dropped, some columns binned and then the target and features selected and set into dfs. The model was then compiled, trained and evaluated. This did not achieve the > 75% accuracy be sought.
 So, three attempts were made to optimize the model.
+
 ![Del_1_and_2_performance](https://user-images.githubusercontent.com/78666055/125216196-681d1500-e28b-11eb-9eb3-6cb9c43aeb96.png)
 
 
@@ -26,6 +27,7 @@ So, three attempts were made to optimize the model.
 .	2 Hidden Layers: 80, 30 using relu activation
 .	Output Layer: Sigmoid activation
 .	Accuracy: 71% (Performance not achieved)
+
 ![First_Attempt](https://user-images.githubusercontent.com/78666055/125216201-6e12f600-e28b-11eb-85f9-75a46d81acd8.png)
 
 
@@ -38,6 +40,7 @@ So, three attempts were made to optimize the model.
 .	Output Layer: Sigmoid activation
 .	NAME was added back and binned.
 .	Accuracy: 77% (Performance achieved)*******
+
 ![Second_Attempt](https://user-images.githubusercontent.com/78666055/125216207-73704080-e28b-11eb-992d-604206f124dd.png)
 
 
@@ -49,6 +52,7 @@ So, three attempts were made to optimize the model.
 .	3 Hidden Layers: 100, 80, 30 using relu and sigmoid actv.
 .	Output Layer: Sigmoid activation
 .	Accuracy: 77% (Performance not achieved)
+
 ![Third_Attempt](https://user-images.githubusercontent.com/78666055/125216228-7b2fe500-e28b-11eb-8c6a-2a43d5ce5e3a.png)
 
 
